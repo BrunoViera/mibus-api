@@ -1,0 +1,88 @@
+module.exports = [
+  { 'origen': 'TERART', 'destinoCodigo': 'TERART' },
+  { 'origen': 'TERART', 'destinoCodigo': 'TERTBO' },
+
+  { 'origen': 'TERCOL', 'destinoCodigo': 'CVA' },
+  { 'origen': 'TERCOL', 'destinoCodigo': 'EPA' },
+  { 'origen': 'TERCOL', 'destinoCodigo': 'JLA' },
+  { 'origen': 'TERCOL', 'destinoCodigo': 'TERMVD' },
+  { 'origen': 'TERCOL', 'destinoCodigo': 'NHE' },
+
+  { 'origen': 'CVA', 'destinoCodigo': 'TERCOL' },
+  { 'origen': 'CVA', 'destinoCodigo': 'EPA' },
+  { 'origen': 'CVA', 'destinoCodigo': 'JLA' },
+  { 'origen': 'CVA', 'destinoCodigo': 'TERMVD' },
+  { 'origen': 'CVA', 'destinoCodigo': 'NHE' },
+
+  { 'origen': 'EPA', 'destinoCodigo': 'TERCOL' },
+  { 'origen': 'EPA', 'destinoCodigo': 'CVA' },
+  { 'origen': 'EPA', 'destinoCodigo': 'JLA' },
+  { 'origen': 'EPA', 'destinoCodigo': 'TERMVD' },
+  { 'origen': 'EPA', 'destinoCodigo': 'NHE' },
+
+  { 'origen': 'FLN', 'destinoCodigo': 'TERPAY' },
+  { 'origen': 'FLN', 'destinoCodigo': 'TERRVR' },
+  { 'origen': 'FLN', 'destinoCodigo': 'TERSTO' },
+  { 'origen': 'FLN', 'destinoCodigo': 'TERTBO' },
+
+  { 'origen': 'GAP', 'destinoCodigo': 'TERPAY' },
+  { 'origen': 'GAP', 'destinoCodigo': 'TERRVR' },
+  { 'origen': 'GAP', 'destinoCodigo': 'TERSTO' },
+  { 'origen': 'GAP', 'destinoCodigo': 'TERTBO' },
+
+  { 'origen': 'JLA', 'destinoCodigo': 'TERCOL' },
+  { 'origen': 'JLA', 'destinoCodigo': 'CVA' },
+  { 'origen': 'JLA', 'destinoCodigo': 'EPA' },
+  { 'origen': 'JLA', 'destinoCodigo': 'TERMVD' },
+  { 'origen': 'JLA', 'destinoCodigo': 'NHE' },
+
+  { 'origen': 'TERMVD', 'destinoCodigo': 'TERART' },
+  { 'origen': 'TERMVD', 'destinoCodigo': 'TERCOL' },
+  { 'origen': 'TERMVD', 'destinoCodigo': 'CVA' },
+  { 'origen': 'TERMVD', 'destinoCodigo': 'EPA' },
+  { 'origen': 'TERMVD', 'destinoCodigo': 'JLA' },
+  { 'origen': 'TERMVD', 'destinoCodigo': 'NHE' },
+  { 'origen': 'TERMVD', 'destinoCodigo': 'TERRVR' },
+  { 'origen': 'TERMVD', 'destinoCodigo': 'TERTBO' },
+
+  { 'origen': 'NHE', 'destinoCodigo': 'TERCOL' },
+  { 'origen': 'NHE', 'destinoCodigo': 'CVA' },
+  { 'origen': 'NHE', 'destinoCodigo': 'EPA' },
+  { 'origen': 'NHE', 'destinoCodigo': 'JLA' },
+  { 'origen': 'NHE', 'destinoCodigo': 'TERMVD' },
+
+  { 'origen': 'TERPAY', 'destinoCodigo': 'FLN' },
+  { 'origen': 'TERPAY', 'destinoCodigo': 'GAP' },
+  { 'origen': 'TERPAY', 'destinoCodigo': 'POA' },
+  { 'origen': 'TERPAY', 'destinoCodigo': 'SGB' },
+
+  { 'origen': 'POA', 'destinoCodigo': 'TERPAY' },
+  { 'origen': 'POA', 'destinoCodigo': 'TERRVR' },
+  { 'origen': 'POA', 'destinoCodigo': 'TERSTO' },
+  { 'origen': 'POA', 'destinoCodigo': 'TERTBO' },
+
+  { 'origen': 'TERRVR', 'destinoCodigo': 'FLN' },
+  { 'origen': 'TERRVR', 'destinoCodigo': 'GAP' },
+  { 'origen': 'TERRVR', 'destinoCodigo': 'TERMVD' },
+  { 'origen': 'TERRVR', 'destinoCodigo': 'POA' },
+  { 'origen': 'TERRVR', 'destinoCodigo': 'SGB' },
+  { 'origen': 'TERRVR', 'destinoCodigo': 'TERTBO' },
+
+  { 'origen': 'TERSTO', 'destinoCodigo': 'FLN' },
+  { 'origen': 'TERSTO', 'destinoCodigo': 'GAP' },
+  { 'origen': 'TERSTO', 'destinoCodigo': 'POA' },
+  { 'origen': 'TERSTO', 'destinoCodigo': 'SGB' },
+
+  { 'origen': 'SGB', 'destinoCodigo': 'TERPAY' },
+  { 'origen': 'SGB', 'destinoCodigo': 'TERRVR' },
+  { 'origen': 'SGB', 'destinoCodigo': 'TERSTO' },
+  { 'origen': 'SGB', 'destinoCodigo': 'TERTBO' },
+
+  { 'origen': 'TERTBO', 'destinoCodigo': 'TERART' },
+  { 'origen': 'TERTBO', 'destinoCodigo': 'FLN' },
+  { 'origen': 'TERTBO', 'destinoCodigo': 'GAP' },
+  { 'origen': 'TERTBO', 'destinoCodigo': 'TERMVD' },
+  { 'origen': 'TERTBO', 'destinoCodigo': 'POA' },
+  { 'origen': 'TERTBO', 'destinoCodigo': 'TERRVR' },
+  { 'origen': 'TERTBO', 'destinoCodigo': 'SGB' },
+];

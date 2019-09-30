@@ -1,0 +1,17 @@
+module.exports = [
+  { 'nombre': 'Artigas', 'codigo': 'TERART' },
+  { 'nombre': 'Colonia', 'codigo': 'TERCOL' },
+  { 'nombre': 'Colonia Valdense', 'codigo': 'CVA' },
+  { 'nombre': 'Ecilda Paullier', 'codigo': 'EPA' },
+  { 'nombre': 'Florianópolis - Brasil', 'codigo': 'FLN' },
+  { 'nombre': 'Garopaba - Brasil', 'codigo': 'GAP' },
+  { 'nombre': 'Juan Lacaze', 'codigo': 'JLA' },
+  { 'nombre': 'Montevideo', 'codigo': 'TERMVD' },
+  { 'nombre': 'Nueva Helvecia', 'codigo': 'NHE' },
+  { 'nombre': 'Paysandú', 'codigo': 'TERPAY' },
+  { 'nombre': 'Porto Alegre - Brasil', 'codigo': 'POA' },
+  { 'nombre': 'Rivera', 'codigo': 'TERRVR' },
+  { 'nombre': 'Salto', 'codigo': 'TERSTO' },
+  { 'nombre': 'San Gabriel - Brasil', 'codigo': 'SGB' },
+  { 'nombre': 'Tacuarembó', 'codigo': 'TERTBO' },
+];
